@@ -1,9 +1,18 @@
-import Image from 'next/image';
+import React from 'react';
+import Navbar from './components/Navbar/Navbar';
 
-import styles from './style.module.scss';
+import './global.scss';
 
-export default function Home() {
+export default function page() {
 	return (
-		<h1 className={styles.title}>Hello World</h1>
+		<>
+			<header>
+				<Navbar />
+			</header>
+			<main>
+				<h1>Hello</h1>
+			</main>
+		</>
 	);
 }
+
