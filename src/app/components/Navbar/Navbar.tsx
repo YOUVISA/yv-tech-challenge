@@ -16,7 +16,7 @@ export default function Navbar() {
 			<div className={styles.navbar__sections}>
 				<ul className={styles.navbar__links}>
 					<li className={styles.list__link}>Sobre nós</li>
-					<li className={styles.list__link}>Planos</li>
+					<li className={styles.list__link}><a href='#card-offers'>Planos</a></li>
 					<li className={styles.list__link}>Fale conosco</li>
 				</ul>
 			</div>

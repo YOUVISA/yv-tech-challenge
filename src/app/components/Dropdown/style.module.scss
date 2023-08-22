@@ -1,0 +1,31 @@
+
+
+.dropdown__container {
+  margin: 0 10px;
+
+  width: 500px;
+}
+
+.inner__spacing {
+  border-radius: 5px;
+  padding: 8px;
+  
+}
+
+.select {
+  outline: none;
+  width: 200px;
+  height: 50px;
+
+  appearance: none;
+
+  
+  
+}
+
+.select::-ms-expand {
+  display: none;
+}
+
+.dropdown__option {
+}

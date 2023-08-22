@@ -1,9 +1,10 @@
-$primary-color: #64ff00;
+$primary-green: #00CD96;
+$darker-green: #00e0a4;
 $primary-purple: #A044FF;
 $primary-gray: #727272;
  
 :export {
-  primaryColor: $primary-color;
+  primaryGreen: $primary-green;
   primaryPurple: $primary-purple;
   primaryGray: $primary-gray;
 }
