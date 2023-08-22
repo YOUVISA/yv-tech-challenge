@@ -1,6 +1,5 @@
 import type {Metadata} from 'next';
 import {Poppins} from 'next/font/google';
-import Navbar from './components/Navbar/Navbar';
 
 // eslint-disable-next-line new-cap
 const poppins = Poppins({subsets: ['latin'], weight: '400'});
@@ -17,6 +16,10 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
+			<head>
+				<link rel='icon' href='./credit-card.ico' sizes='any' />
+				<title>Credit4Card</title>
+			</head>
 			<body className={poppins.className}>{children}</body>
 		</html>
 	);
