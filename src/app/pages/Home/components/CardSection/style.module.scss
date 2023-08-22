@@ -1,8 +1,6 @@
 @import "../../../../variables.module.scss";
 
 .container {
-  /* background-color: green; */
-
   display: flex;
   justify-content: center;
 
@@ -20,6 +18,10 @@
       & span {
         color: $primary-purple;
       }
+    }
+
+    @media screen and (max-width: 760px) {
+      text-align: center;
     }
   }
 

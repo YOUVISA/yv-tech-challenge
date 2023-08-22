@@ -55,4 +55,8 @@
       background-color: #00e0a4;
     }
   }
+
+  @media screen and (max-width: 1200px) {
+    width: 90%;
+  }
 }

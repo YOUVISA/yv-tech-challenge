@@ -10,7 +10,9 @@
   display: flex;
   justify-content: space-around;
 
-  .footer__info, .footer__contact, .footer__help {
+  .footer__info,
+  .footer__contact,
+  .footer__help {
     border-right: 1px solid black;
     padding: 10px;
   }
@@ -21,7 +23,7 @@
     .footer__brand {
       display: flex;
       justify-content: center;
-  
+
       .footer__logo__link {
         text-decoration: none;
         margin-left: 10px;
@@ -35,10 +37,10 @@
       color: rgb(238, 238, 238);
       padding: 0 0 0 10px;
     }
-
   }
 
-  .footer__contact, .footer__help {
+  .footer__contact,
+  .footer__help {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,5 +99,11 @@
   .footer__subtitle {
     margin: 10px 0;
     color: white;
+  }
+
+  @media screen and (max-width: 760px) {
+    display: flex;
+    flex-direction: column;
+    height: auto;
   }
 }
