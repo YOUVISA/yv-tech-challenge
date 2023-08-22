@@ -278,6 +278,14 @@ export default function CardSection() {
 							>
 								<BenefitItem
 									benefic
+									text='Cartão de crédito personalizável'
+								/>
+								<BenefitItem
+									benefic
+									text='R$2000.00 de crédito inicial'
+								/>
+								<BenefitItem
+									benefic
 									text='Descontos exclusivos em salas de cinema'
 								/>
 								<BenefitItem
@@ -303,6 +311,14 @@ export default function CardSection() {
 								imageSrc={Game}
 								imageAlt='Small store icon'
 							>
+								<BenefitItem
+									benefic
+									text='Cartão de crédito personalizável'
+								/>
+								<BenefitItem
+									benefic
+									text='R$3000.00 de crédito inicial'
+								/>
 								<BenefitItem benefic text='Descontos em Jogos e Consoles' />
 								<BenefitItem
 									benefic
