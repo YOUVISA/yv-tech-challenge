@@ -1,17 +1,11 @@
-import React from 'react';
-
 import styles from './style.module.scss';
-import Image, {type StaticImageData} from 'next/image';
 
-import LogoImage from './credit-card.svg';
+import Brand from '../Brand/Brand';
 
 export default function Navbar() {
 	return (
 		<nav className={styles.navbarContainer}>
-			<div className={styles.navbar__logo}>
-				<Image src={LogoImage as StaticImageData} alt='Credit Card as Logo image' className={styles.navbar__logo__image} />
-				<h1><a href='#' className={styles.navbar__logo__link}>Credit4Card</a></h1>
-			</div>
+			<Brand />
 
 			<div className={styles.navbar__sections}>
 				<ul className={styles.navbar__links}>
@@ -23,3 +17,4 @@ export default function Navbar() {
 		</nav>
 	);
 }
+

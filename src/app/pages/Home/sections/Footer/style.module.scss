@@ -1,0 +1,101 @@
+@import "../../../../variables.module.scss";
+
+.footer__container {
+  padding: 10px;
+  height: 250px;
+  width: 100%;
+
+  background-color: $primary-purple;
+
+  display: flex;
+  justify-content: space-around;
+
+  .footer__info, .footer__contact, .footer__help {
+    border-right: 1px solid black;
+    padding: 10px;
+  }
+
+  .footer__info {
+    width: 100%;
+
+    .footer__brand {
+      display: flex;
+      justify-content: center;
+  
+      .footer__logo__link {
+        text-decoration: none;
+        margin-left: 10px;
+        color: rgb(238, 238, 238);
+      }
+    }
+
+    .footer__brand_text {
+      margin-top: 20px;
+      font-size: 14px;
+      color: rgb(238, 238, 238);
+      padding: 0 0 0 10px;
+    }
+
+  }
+
+  .footer__contact, .footer__help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .contact__text {
+      padding: 5px;
+      cursor: pointer;
+      color: rgb(225, 225, 225);
+
+      &:hover {
+        color: rgb(206, 206, 206);
+      }
+    }
+  }
+
+  .footer__help {
+    width: 100%;
+  }
+
+  .footer__newsletter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .newsletter__input {
+      width: 80%;
+      margin-top: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+    }
+
+    .newsletter__button {
+      margin: 20px 0;
+      padding: 10px 30px;
+      border-radius: 5px;
+
+      border: none;
+      cursor: pointer;
+
+      font-size: 16px;
+      background-color: $primary-green;
+      color: white;
+
+      transition: background-color 0.3s ease-out;
+
+      &:hover {
+        background-color: $darker-green;
+      }
+    }
+  }
+
+  .footer__subtitle {
+    margin: 10px 0;
+    color: white;
+  }
+}
