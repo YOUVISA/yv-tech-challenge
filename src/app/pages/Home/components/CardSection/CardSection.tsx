@@ -119,7 +119,7 @@ export default function CardSection() {
 			>
 				<section id='card-offers' className={styles.title__container}>
 					<h2>
-            Cartões para todos os <span>gostos</span>
+            Seleção de <span>planos</span>
 					</h2>
 				</section>
 
